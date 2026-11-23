@@ -56,6 +56,7 @@ Both sensors share one I²C bus (BME280 at address `0x77`, INA219 at `0x40`). Th
 ## Progress log
 
 - **18 Nov 2026** – Planned the project, ordered the parts, and set up Arduino IDE 2 with the ESP32 board package.
+- **23 Nov 2026** – Ran blink and DHT22 temperature/humidity reading in the Wokwi simulator ([project link]https://wokwi.com/projects/481482470912041985)
 
 ## What I'm learning
 
