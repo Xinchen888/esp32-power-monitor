@@ -56,8 +56,10 @@ Both sensors share one I²C bus (BME280 at address `0x77`, INA219 at `0x40`). Th
 ## Progress log
 
 - **18 Nov 2026** – Planned the project, ordered the parts, and set up Arduino IDE 2 with the ESP32 board package.
-- **23 Nov 2026** – Ran blink and DHT22 temperature/humidity reading in the Wokwi simulator ([project link]https://wokwi.com/projects/481482470912041985)
+- **23 Nov 2026** – Ran blink and DHT22 temperature/humidity reading in the Wokwi simulator ([project link](https://wokwi.com/projects/481482470912041985))
 - **24 Nov 2026** – Picked up the parts. Uploaded Blink to the real Feather ESP32 V2, then wrote my own `flash(int onTime)` function and for-loops to blink SOS in Morse code (started from the Arduino Blink example).
+
+  <img src="docs/images/parts-unboxed.jpg" alt="Parts unboxed: Feather ESP32 V2, BME280, INA219, STEMMA QT cables and jumper wires" width="420">
 
 ## What I'm learning
 
